@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configure the SQLAlchemy URI to connect to SQL Server using Windows Authentication
 app.config['SQLALCHEMY_DATABASE_URI'] = (
-    'mssql+pyodbc://DESKTOP-QJO9A7U/BrokenHill_Civil_Works?driver=ODBC+Driver+17+for+SQL+Server;Trusted_Connection=yes'
+    'mssql+pyodbc://DESKTOP-QJO9A7U/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server;Trusted_Connection=yes'
 )
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable modification tracking (optional)
 
