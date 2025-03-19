@@ -32,8 +32,9 @@ user_args.add_argument('email', type=str, required=True, help="Email cannot be b
 
 # Define fields for returning data in the response
 userFields = {
-    'id': fields.Integer,
-    'name': fields.String,
+    'CustomerKey': fields.Integer,
+    'FirstName': fields.String,
+    'LastName': fields.String,
     'email': fields.String,
 }
 
