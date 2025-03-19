@@ -35,6 +35,7 @@ userFields = {
     'CustomerKey': fields.Integer,
     'FirstName': fields.String,
     'LastName': fields.String,
+    'EnglishOccupation': fields.String,
     'email': fields.String,
 }
 
